@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reactify — Privacy Policy</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.6;
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 3rem;
+        }
+        h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
+        .updated { color: #666; font-size: 0.85rem; margin-bottom: 1.5rem; }
+        h2 { font-size: 1.1rem; margin: 1.75rem 0 0.5rem; }
+        p, li { margin-bottom: 0.5rem; }
+        ul { padding-left: 1.25rem; margin-bottom: 0.75rem; }
+        a { color: #5865f2; }
+        table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.9rem; }
+        th, td { padding: 0.4rem 0.6rem; text-align: left; border: 1px solid #ddd; }
+        th { background: #f5f5f5; font-weight: 600; }
+        .footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #ddd; font-size: 0.85rem; color: #666; }
+        .footer a { margin-right: 1rem; }
+    </style>
+</head>
+<body>
+
+<h1>Reactify — Privacy Policy</h1>
+<p class="updated">Last updated: February 7, 2026</p>
+
+<p>Short version: we store your server's reaction rules. We don't read messages, log user data, or sell anything.</p>
+
+<h2>1. What we store</h2>
+<table>
+    <tr><th>Data</th><th>Why</th></tr>
+    <tr><td>Server ID</td><td>Link rules to your server</td></tr>
+    <tr><td>Channel IDs</td><td>Know where to react</td></tr>
+    <tr><td>Reaction rules (emojis, type filters)</td><td>Core functionality</td></tr>
+    <tr><td>Role/member IDs in whitelist/blacklist</td><td>Filtering (premium)</td></tr>
+    <tr><td>Subscription status</td><td>Enforce tier limits</td></tr>
+</table>
+
+<h2>2. What we don't store</h2>
+<ul>
+    <li>Message content — we never read, log, or store messages</li>
+    <li>User profiles, usernames, or avatars</li>
+    <li>DMs</li>
+    <li>Payment info — handled entirely by Discord/Stripe</li>
+    <li>IP addresses or device info</li>
+</ul>
+
+<h2>3. How we use your data</h2>
+<p>Only to run the bot: applying reaction rules and enforcing tier limits. Nothing else.</p>
+
+<h2>4. Where data is stored</h2>
+<p>Google Firestore (Google Cloud), encrypted at rest and in transit. Only the bot's service account has access.</p>
+
+<h2>5. Third parties</h2>
+<table>
+    <tr><th>Service</th><th>Purpose</th></tr>
+    <tr><td><a href="https://discord.com/privacy">Discord</a></td><td>Platform</td></tr>
+    <tr><td><a href="https://cloud.google.com/privacy">Google Cloud</a></td><td>Database</td></tr>
+    <tr><td><a href="https://stripe.com/privacy">Stripe</a> (via Discord)</td><td>Payments</td></tr>
+    <tr><td><a href="https://sentry.io/privacy/">Sentry</a></td><td>Error tracking (no user data)</td></tr>
+</table>
+
+<h2>6. Data retention</h2>
+<ul>
+    <li>While the bot is in your server: data is kept.</li>
+    <li>After removal: deleted within 30 days.</li>
+</ul>
+
+<h2>7. Your rights</h2>
+<p>You can request access to, deletion of, or export of your server's data. Use the bot commands to update config, or contact us for anything else.</p>
+
+<h2>8. EU/GDPR</h2>
+<p>Legal basis: legitimate interest (providing the service) and contract performance (for subscribers). Data controller is based in Croatia (EU). You have all rights under GDPR Articles 15–22.</p>
+
+<h2>9. Children</h2>
+<p>Reactify follows Discord's age requirements. We don't knowingly collect data from users under 13.</p>
+
+<h2>10. Changes</h2>
+<p>We may update this policy. The date at the top reflects the latest version.</p>
+
+<h2>11. Contact</h2>
+<p><a href="https://discord.gg/sqhnaVkCcd">Support Server</a></p>
+
+<div class="footer">
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms-of-service.html">Terms of Service</a>
+    <br>© 2026 Reactify
+</div>
+
+</body>
+</html>
