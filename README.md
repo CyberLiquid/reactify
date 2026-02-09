@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://discord.com/oauth2/authorize?client_id=1469692518567514286">Add to Server</a> -
-  <a href="https://discord.gg/sqhnaVkCcd">Support Server</a> -
-  <a href="https://discord.com/application-directory/1469692518567514286">App Directory</a> -
-  <a href="https://cyberliquid.github.io/reactify/privacy-policy.html">Privacy</a> -
+  <a href="https://discord.com/oauth2/authorize?client_id=1469692518567514286">Add to Server</a> ·
+  <a href="https://discord.gg/sqhnaVkCcd">Support Server</a> ·
+  <a href="https://discord.com/application-directory/1469692518567514286">App Directory</a> ·
+  <a href="https://cyberliquid.github.io/reactify/privacy-policy.html">Privacy</a> ·
   <a href="https://cyberliquid.github.io/reactify/terms-of-service.html">Terms</a>
 </p>
 
@@ -41,11 +41,13 @@
 | `/autoreaction edit` | Edit emojis, filter, or channels on a rule |
 | `/autoreaction list` | View, edit, and delete rules interactively |
 | `/autoreaction remove` | Bulk-delete rules |
-| `/autoreaction whitelist` | Allow specific roles/members |
-| `/autoreaction blacklist` | Block specific roles/members |
+| `/autoreaction whitelist` | Allow specific roles/members ⭐ |
+| `/autoreaction blacklist` | Block specific roles/members ⭐ |
 | `/autoreaction-admin manage` | Delegate rule management to roles |
 | `/premium` | View status or upgrade |
-| `/support` | Get support server and bot links |
+| `/help` | Get help, support links, and bot info |
+
+⭐ Premium feature
 
 ## How Rules Work
 
@@ -74,8 +76,8 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 | Rules | 3 | 50 |
 | Emojis per rule | 5 | 10 |
 | Max emojis per message | 5 | 10 |
-| Channels per rule | Unlimited | Unlimited |
-| Whitelist / Blacklist | - | Yes |
+| Channels per rule | ∞ | ∞ |
+| Whitelist / Blacklist | x | ✅ |
 
 **$3.99/month** - billed through Discord. Run `/premium` to upgrade.
 
@@ -100,9 +102,9 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 ---
 
 <p align="center">
-  <a href="https://discord.com/oauth2/authorize?client_id=1469692518567514286">Add to Server</a> -
-  <a href="https://discord.gg/sqhnaVkCcd">Support Server</a> -
+  <a href="https://discord.com/oauth2/authorize?client_id=1469692518567514286">Add to Server</a> ·
+  <a href="https://discord.gg/sqhnaVkCcd">Support Server</a> ·
   <a href="https://discord.com/application-directory/1469692518567514286">App Directory</a>
   <br><br>
-  &copy; 2026 CyberLiquid
+  © 2026 CyberLiquid
 </p>
