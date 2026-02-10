@@ -38,16 +38,17 @@
 | Command | Description |
 |---------|-------------|
 | `/autoreaction add` | Create a reaction rule |
-| `/autoreaction edit` | Edit emojis, filter, or channels on a rule |
+| `/autoreaction edit` | Edit an existing rule (emojis, filter, channels) |
 | `/autoreaction list` | View, edit, and delete rules interactively |
 | `/autoreaction remove` | Bulk-delete rules |
 | `/autoreaction whitelist` | Allow specific roles/members ⭐ |
 | `/autoreaction blacklist` | Block specific roles/members ⭐ |
+| `/autoreaction keyword` | React only on matching words ⭐ |
 | `/autoreaction-admin manage` | Delegate rule management to roles |
 | `/premium` | View status or upgrade |
-| `/help` | Get help, support links, and bot info |
+| `/help` | Get support server and bot links |
 
-⭐ Premium feature
+⭐ Premium feature - requires **Manage Server** or a manager role set via `/autoreaction-admin manage`.
 
 ## How Rules Work
 
@@ -78,6 +79,8 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 | Max emojis per message | 5 | 10 |
 | Channels per rule | ∞ | ∞ |
 | Whitelist / Blacklist | x | ✅ |
+| Keyword Filters | x | ✅ |
+| Pause / Resume Rules | ✅ | ✅ |
 
 **$3.99/month** - billed through Discord. Run `/premium` to upgrade.
 
@@ -93,7 +96,11 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 
 **Hit the rule limit?** Existing rules keep working. Remove one or upgrade.
 
-**What happens if I cancel premium?** Your rules stay saved, but only the first 3 will be active. Upgrade again anytime to re-enable them all.
+**What happens if I cancel premium?** Your rules stay saved, but only the first 3 will be active. Whitelists, blacklists, and keyword filters become inactive (shown in the rule list). Upgrade again anytime to re-enable everything.
+
+**Clear all rules?** Open `/autoreaction list`, click **Clear All Rules** at the bottom, then **Confirm Clear All**. This permanently removes all rules at once.
+
+**Pause a rule?** Open `/autoreaction list`, select a rule, and click ⏸ Pause. Resume anytime.
 
 **Something broken?** Join our [Support Server](https://discord.gg/sqhnaVkCcd) - we're active and fixing issues fast.
 
