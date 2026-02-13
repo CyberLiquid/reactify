@@ -43,12 +43,12 @@
 | `/autoreaction remove` | Bulk-delete rules |
 | `/autoreaction whitelist` | Allow specific roles/members ⭐ |
 | `/autoreaction blacklist` | Block specific roles/members ⭐ |
-| `/autoreaction keyword` | React only on matching words ⭐ |
+| `/autoreaction keyword` | React only on matching words (3 free, 10 with Premium) |
 | `/autoreaction-admin manage` | Delegate rule management to roles |
 | `/premium` | View status or upgrade |
 | `/help` | Get support server and bot links |
 
-⭐ Premium feature - requires **Manage Server** or a manager role set via `/autoreaction-admin manage`.
+⭐ Premium-only feature. All commands require **Manage Server** or a manager role set via `/autoreaction-admin manage`.
 
 ## How Rules Work
 
@@ -79,7 +79,7 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 | Max emojis per message | 5 | 10 |
 | Channels per rule | ∞ | ∞ |
 | Whitelist / Blacklist | x | ✅ |
-| Keyword Filters | x | ✅ |
+| Keywords per rule | 3 | 10 |
 | Pause / Resume Rules | ✅ | ✅ |
 
 **$3.99/month** - billed through Discord. Run `/premium` to upgrade.
@@ -96,7 +96,7 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 
 **Hit the rule limit?** Existing rules keep working. Remove one or upgrade.
 
-**What happens if I cancel premium?** Your rules stay saved, but only the first 3 will be active. Whitelists, blacklists, and keyword filters become inactive (shown in the rule list). Upgrade again anytime to re-enable everything.
+**What happens if I cancel premium?** Your rules stay saved, but only the first 3 will be active. Whitelists, blacklists become inactive, and keyword filters are limited to the first 3 per rule (shown in the rule list). Upgrade again anytime to re-enable everything.
 
 **Clear all rules?** Open `/autoreaction list`, click **Clear All Rules** at the bottom, then **Confirm Clear All**. This permanently removes all rules at once.
 
