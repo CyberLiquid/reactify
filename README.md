@@ -77,10 +77,10 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 | Rules | 3 | 50 |
 | Emojis per rule | 5 | 10 |
 | Max emojis per message | 5 | 10 |
-| Channels per rule | ∞ | ∞ |
-| Whitelist / Blacklist | x | ✅ |
 | Keywords per rule | 3 | 10 |
+| Channels per rule | ∞ | ∞ |
 | Pause / Resume Rules | ✅ | ✅ |
+| Whitelist / Blacklist | — | ✅ |
 
 **$3.99/month** - billed through Discord. Run `/premium` to upgrade.
 
