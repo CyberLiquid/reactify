@@ -75,8 +75,8 @@ One rule can cover **multiple channels** at once. Multiple rules can overlap - e
 | | Free | Premium |
 |--|------|---------|
 | Rules | 3 | 50 |
-| Emojis per rule | 5 | 10 |
-| Max emojis per message | 5 | 10 |
+| Emojis per rule | 3 | 10 |
+| Max emojis per message | 3 | 10 |
 | Keywords per rule | 3 | 10 |
 | Channels per rule | ∞ | ∞ |
 | Pause / Resume Rules | ✅ | ✅ |
