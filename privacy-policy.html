@@ -38,14 +38,14 @@
     <tr><th>Data</th><th>Why</th></tr>
     <tr><td>Server ID</td><td>Link rules to your server</td></tr>
     <tr><td>Channel IDs</td><td>Know where to react</td></tr>
-    <tr><td>Reaction rules (emojis, type filters)</td><td>Core functionality</td></tr>
+    <tr><td>Reaction rules (emojis, type filters, keywords)</td><td>Core functionality</td></tr>
     <tr><td>Role/member IDs in whitelist/blacklist</td><td>Filtering (premium)</td></tr>
     <tr><td>Subscription status</td><td>Enforce tier limits</td></tr>
 </table>
 
 <h2>2. What we don't store</h2>
 <ul>
-    <li>Message content — we never read, log, or store messages</li>
+    <li>Message content — messages are checked in memory for link and keyword matching, then immediately discarded. We never log, cache, or persist message content.</li>
     <li>User profiles, usernames, or avatars</li>
     <li>DMs</li>
     <li>Payment info — handled entirely by Discord/Stripe</li>
